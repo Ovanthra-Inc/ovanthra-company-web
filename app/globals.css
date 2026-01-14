@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+:root {
+  --navy-blue: #0f172a;
+  --charcoal: #334155;
+  --slate-blue: #475569;
+  --off-white: #f8fafc;
+  --border-color: #e2e8f0;
+  --light-gray: #f1f5f9;
+}
+
+@theme inline {
+  --color-brand-navy: var(--navy-blue);
+  --color-brand-slate: var(--slate-blue);
+  --color-brand-charcoal: var(--charcoal);
+  --color-background-base: var(--off-white);
+  --color-primary: var(--charcoal);
+  --color-light-gray: var(--light-gray);
+  
+  --font-inter: var(--font-inter); 
+  --font-lora: var(--font-lora);
+}
+
+body {
+  background-color: var(--off-white);
+  color: var(--navy-blue);
+  font-family: var(--font-inter), sans-serif;
+  overflow-x: hidden;
+}
+
+.serif {
+  font-family: var(--font-lora), serif;
+}
+
+/* Glass nav utility */
+.glass-nav {
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  background-color: rgba(248, 250, 252, 0.8);
+}
