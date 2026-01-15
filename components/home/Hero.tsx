@@ -24,9 +24,9 @@ export function Hero() {
                                 arrow_right_alt
                             </span>
                         </button>
-                        <button className="bg-white border border-slate-200 text-brand-navy px-8 lg:px-10 py-4 rounded-lg font-semibold hover:bg-slate-50 transition-colors shadow-sm cursor-pointer">
+                        {/* <button className="bg-white border border-slate-200 text-brand-navy px-8 lg:px-10 py-4 rounded-lg font-semibold hover:bg-slate-50 transition-colors shadow-sm cursor-pointer">
                             View Case Studies
-                        </button>
+                        </button> */}
                     </div>
                 </div>
                 <div className="relative group mt-10 lg:mt-0">

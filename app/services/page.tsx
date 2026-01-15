@@ -1,6 +1,6 @@
-import { ProductHero } from "@/components/products/ProductHero";
-import { ProductCatalog } from "@/components/products/ProductCatalog";
-import { ProductCTA } from "@/components/products/ProductCTA";
+import { ProductHero } from "@/components/services/ProductHero";
+import { ProductCatalog } from "@/components/services/ProductCatalog";
+import { ProductCTA } from "@/components/services/ProductCTA";
 
 export default function Products() {
     return (

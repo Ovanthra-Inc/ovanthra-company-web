@@ -8,10 +8,10 @@ export function Header() {
 
     const navLinks = [
         { href: "/solutions", label: "Solutions" },
-        { href: "/industry", label: "Industries" },
-        { href: "/intelligence", label: "Intelligence" },
-        { href: "/enterprise", label: "Enterprise" },
-        { href: "/products", label: "Products" },
+        // { href: "/industry", label: "Industries" },
+        // { href: "/intelligence", label: "Intelligence" },
+        // { href: "/enterprise", label: "Enterprise" },
+        { href: "/services", label: "Services" },
         { href: "/blog", label: "Blog" },
     ];
 
@@ -44,7 +44,7 @@ export function Header() {
 
                 <div className="flex items-center gap-4 lg:gap-6">
                     <button className="hidden sm:block bg-brand-navy text-white text-sm font-semibold px-6 py-2.5 rounded-lg hover:bg-brand-charcoal transition-all shadow-sm cursor-pointer">
-                        Request Briefing
+                        Contact Us
                     </button>
 
                     {/* Mobile Menu Button */}
@@ -76,7 +76,7 @@ export function Header() {
                         </Link>
                     ))}
                     <button className="bg-brand-navy text-white text-lg font-semibold px-8 py-4 rounded-xl hover:bg-brand-charcoal transition-all mt-4">
-                        Request Briefing
+                        Contact Us
                     </button>
                 </nav>
             </div>

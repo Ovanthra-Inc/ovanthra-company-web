@@ -18,9 +18,9 @@ export function CTA() {
                             <button className="bg-white text-brand-navy px-8 lg:px-12 py-4 lg:py-5 rounded-lg font-bold hover:bg-slate-100 transition-all shadow-lg cursor-pointer text-sm lg:text-base">
                                 Schedule a Consultation
                             </button>
-                            <button className="bg-transparent border border-white/20 text-white px-8 lg:px-12 py-4 lg:py-5 rounded-lg font-bold hover:bg-white/10 transition-colors cursor-pointer text-sm lg:text-base">
+                            {/* <button className="bg-transparent border border-white/20 text-white px-8 lg:px-12 py-4 lg:py-5 rounded-lg font-bold hover:bg-white/10 transition-colors cursor-pointer text-sm lg:text-base">
                                 Contact Sales
-                            </button>
+                            </button> */}
                         </div>
                     </div>
                 </div>
